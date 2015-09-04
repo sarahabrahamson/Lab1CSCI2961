@@ -10,13 +10,29 @@ Lab1
 5. 
 6.
 7.
+
 8. Problem 1: \d$
    Problem 2: (\d\d\d)
-   Problem 3:
-   Problem 4:
-   Problem 5:
-   
-   
+   Problem 3: ^([\w.]+)
+   Problem 4: (\w+)
+   Problem 5: ^(\w*)\.(jpg|png|gif)$
+   Problem 6: (\w.*)
 
-9.  
+9.  Congratulations!
+    You solved this level with 13 lines of JavaScript:
+
+while (notDone()) {
+  if (isPathLeft()) {
+    turnLeft();
+    moveForward();
+  } else {
+    if (isPathForward()) {
+      moveForward();
+    } else {
+      turnLeft();
+      turnLeft();
+    }
+  }
+}
+
 10.
