@@ -9,7 +9,7 @@ Lab1
 
 5. 
 6.
-7.
+7. ![Image](https://github.com/sarahabrahamson/Lab1CSCI2961/blob/master/Pictures/ans567.png)
 
 8. Problem 1: \d$
    Problem 2: (\d\d\d)
@@ -18,6 +18,7 @@ Lab1
    Problem 5: ^(\w*)\.(jpg|png|gif)$
    Problem 6: (\w.*)
 
+![Image](https://github.com/sarahabrahamson/Lab1CSCI2961/blob/master/Pictures/ans9.png)
 9.  Congratulations!
     You solved this level with 13 lines of JavaScript:
 
